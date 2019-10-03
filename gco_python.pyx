@@ -150,7 +150,7 @@ def cut_simple_vh(np.ndarray[np.int32_t, ndim=3, mode='c'] unary_cost,
     return result
 
 
-def cut_from_graph(np.ndarray[np.int32_t, ndim=2, mode='c'] edges,
+def cut_from_graph(np.ndarray[np.int32_t, ndim=3, mode='c'] edges,
         np.ndarray[np.int32_t, ndim=2, mode='c'] unary_cost,
         np.ndarray[np.int32_t, ndim=2, mode='c'] pairwise_cost,
         label_cost=0, n_iter=5, algorithm='expansion'):
